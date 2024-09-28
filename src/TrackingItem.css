@@ -1,0 +1,8 @@
+.tracking-item-container {
+
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    &:hover{
+        border-color: darkgray;
+    }
+}
