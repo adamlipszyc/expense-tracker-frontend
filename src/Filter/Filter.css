@@ -82,10 +82,7 @@
   }
 
   .container {
-    position: fixed;
-    z-index: 9999;
-    top: 18px;  
-    left: 430px;
+    
   }
   
 

@@ -24,7 +24,7 @@ import CurrencyPoundIcon from "@mui/icons-material/CurrencyPound";
 const AddExpense = ({ fetchExpensesCallBack }) => {
   const [category, setCategory] = useState("");
   const [amount, setAmount] = useState(null);
-  const [date, setDate] = useState(dayjs("2022-04-17"));
+  const [date, setDate] = useState(dayjs());
   const [description, setDescription] = useState("");
   const [isShown, setIsShown] = useState(false);
 
@@ -87,8 +87,8 @@ const AddExpense = ({ fetchExpensesCallBack }) => {
                       </MenuItem>
                       <MenuItem value="Insurance">Insurance</MenuItem>
                       <MenuItem value="Education">Education</MenuItem>
-                      <MenuItem value="Gifts and Donation">
-                        Gifts and Donation
+                      <MenuItem value="Gifts and Donations">
+                        Gifts and Donations
                       </MenuItem>
                       <MenuItem value="Miscellaneous">Miscellaneous</MenuItem>
                       <MenuItem value="Taxes">Taxes</MenuItem>
